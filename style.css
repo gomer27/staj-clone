@@ -10,7 +10,8 @@ body {
   border: 30px solid gainsboro;
   width: 100%;
 }
-.shadow1 {
+/* c-shadow-size is my definition */
+.c-shadow {
   -webkit-box-shadow: 3px 6px 23px -4px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 6px 23px -4px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 6px 23px -4px rgba(0, 0, 0, 0.75);
@@ -61,67 +62,68 @@ p,
 small {
   font-size: 12px;
 }
-.text-size {
+/* c-text-size is my definition */
+.c-text-size {
   font-size: 18px;
 }
-
-.-bg-color1 {
+/* c-bg-color(number) and c-color(number) is my definition */
+.c-bg-color1 {
   background-color: #01473e;
 }
-.bg-color2 {
+.c-bg-color2 {
   background-color: #005e53;
 }
-.bg-color3 {
+.c-bg-color3 {
   background-color: #007d6e;
 }
-.bg-color4 {
+.c-bg-color4 {
   background-color: #33978b;
 }
-.bg-color5 {
+.c-bg-color5 {
   background-color: #66b1a8;
 }
-.bg-color6 {
+c-bg-color6 {
   background-color: #99cbc5;
 }
-.bg-color7 {
+.c-bg-color7 {
   background-color: #cce5e2;
 }
-.bg-color8 {
+.c-bg-color8 {
   background-color: #e6f3f1;
 }
-.bg-color9 {
+.c-bg-color9 {
   background-color: white;
 }
-.bg-color10 {
+.c-bg-color10 {
   background-color: #b3b3b3;
 }
-.color1 {
+.c-color1 {
   color: #01473e;
 }
-.color2 {
+.c-color2 {
   color: #005e53;
 }
-.color3 {
+.c-color3 {
   color: #007d6e;
 }
-.color4 {
+.c-color4 {
   color: #33978b;
 }
-.color5 {
+.c-color5 {
   color: #66b1a8;
 }
-.color6 {
+.c-color6 {
   color: #99cbc5;
 }
-.color7 {
+.c-color7 {
   color: #cce5e2;
 }
-.color8 {
+.c-color8 {
   color: #e6f3f1;
 }
-.color9 {
+.c-color9 {
   color: #fff;
 }
-.color10 {
+.c-color10 {
   color: black;
 }
