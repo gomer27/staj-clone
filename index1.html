@@ -17,15 +17,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- HEADER-START -->
-    <header>
-      <nav class="navbar navbar-expand-md c-bg-color4">
+    <header class="c-bg-color4">
+      <nav class="navbar navbar-expand-md">
         <div class="container-fluid mx-5">
-          <a class="navbar-brand c-color9" href="#">Kang Tutor</a>
+          <a class="navbar-brand c-color9 header-font" href="#"> Kang Tutor </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -41,7 +46,7 @@
             class="collapse navbar-collapse c-color9 justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div class="navbar-nav">
+            <div class="navbar-nav header-font2">
               <a class="nav-link c-color9" aria-current="page" href="#"
                 >Ana Sayfa</a
               >
@@ -61,12 +66,12 @@
     <!-- MAIN-START -->
     <main>
       <!-- CONTAINER1-START -->
-      <div class="container mt-4">
+      <div class="container mt-5">
         <div class="row">
           <!-- ARTICLE-START -->
 
           <article class="col-md-8">
-            <div class="content c-shadow h-100 main-img">
+            <div class="content h-100 main-img w-100">
               <div class="img-text">
                 <h6 class="c-color10">In Label</h6>
                 <h4 class="c-color10">
@@ -77,11 +82,11 @@
                   <span class="c-color10"> Ridho Satriawan</span>
                 </h6>
               </div>
-              <img
+              <!-- <img
                 src="https://picsum.photos/id/16/520/380"
                 alt="Ana Sayfa 1. resim"
                 class="img1 border c-shadow w-100 h-100 img-fluid"
-              />
+              /> -->
             </div>
           </article>
 
@@ -89,7 +94,7 @@
           <!-- ASIDE-START -->
 
           <aside class="col-md-4 d-none d-md-block">
-            <h6 class="c-bg-color4 border p-1 shadc-shadowow1">
+            <h6 class="c-bg-color4 border p-1 c-shadow aside-font">
               Popüler Haberler
               <!--tam karşılıgını bulamadım-->
             </h6>
@@ -97,38 +102,17 @@
               <div class="row g-0">
                 <div class="col-4 p-1 content">
                   <img
-                    src="https://picsum.photos/id/2/200"
+                    src="https://picsum.photos/id/2/132/70"
                     class="img-fluid border h-100"
                     alt="popüler haber 1.resim"
                   />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
-                    <h5>
+                    <h5 class="card1-text1">
                       <strong> Ini Adalah Judul Artikel </strong>
                     </h5>
-                    <h5>
-                      <small> 22 Agust 2022 </small>
-                    </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3 c-shadow">
-              <div class="row g-0">
-                <div class="col-4 content p-1">
-                  <img
-                    src="https://picsum.photos/id/3/200"
-                    class="img-fluid border h-100"
-                    alt="popüler haber 2.resim"
-                  />
-                </div>
-                <div class="col-8">
-                  <div class="card-body">
-                    <h5>
-                      <strong> Ini Adalah Judul Artikel </strong>
-                    </h5>
-                    <h5>
+                    <h5 class="card1-text2">
                       <small> 22 Agust 2022 </small>
                     </h5>
                   </div>
@@ -139,18 +123,51 @@
               <div class="row g-0">
                 <div class="col-4 p-1 content">
                   <img
-                    src="https://picsum.photos/id/4/200"
+                    src="https://picsum.photos/id/2/132/70"
                     class="img-fluid border h-100"
-                    alt="popüler haber 3.resim"
+                    alt="popüler haber 1.resim"
                   />
                 </div>
                 <div class="col-8">
                   <div class="card-body">
-                    <h5>
+                    <h5 class="card1-text1">
                       <strong> Ini Adalah Judul Artikel </strong>
                     </h5>
-                    <h5>
+                    <h5 class="card1-text2">
                       <small> 22 Agust 2022 </small>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 c-shadow">
+              <div class="row g-0">
+                <div class="col-4 p-1 content">
+                  <img
+                    src="https://picsum.photos/id/2/132/70"
+                    class="img-fluid border h-100"
+                    alt="popüler haber 1.resim"
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card1-text1">
+                      <strong>
+                        Ini Adalah Judul Artikel dsfdsfdsfds Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Nisi perferendis
+                        reiciendis similique iure debitis adipisci repellat!
+                        Iusto, libero qui porro velit reiciendis natus aut a.
+                      </strong>
+                    </h5>
+                    <h5 class="card1-text2">
+                      <small>
+                        22 Agust 2022 Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Suscipit eius iste ullam optio, nam
+                        dignissimos quia porro, voluptatum laudantium quibusdam
+                        cumque autem placeat deleniti, et sint itaque est
+                        officia doloribus tempora vero ipsum corrupti
+                        veniam.</small
+                      >
                     </h5>
                   </div>
                 </div>
@@ -163,117 +180,204 @@
       </div>
       <!-- CONTAINER1-END -->
       <!-- CONTAINER2-START -->
-      <div class="container">
+      <div class="container mt-3">
         <div class="row">
           <!-- ARTICLE-START -->
           <article class="col-md-8">
-            <h6 class="article-head c-bg-color4 p-2 text-light c-shadow border">
+            <h6
+              class="article-head c-bg-color4 p-2 text-light c-shadow border px-4"
+            >
               <div class="d-flex justify-content-between">
-                <div>Güncel Haberler</div>
-                <a href="#" class="text-light"> Daha Fazlası... </a>
+                <div class="article2-border-size">Güncel Haberler</div>
+                <a href="#" class="text-light article2-border-size2 mt-1">
+                  Daha Fazlası
+                </a>
               </div>
             </h6>
             <div class="row content">
               <div class="col-sm-6 mt-2 container-fluid">
                 <div class="card border c-shadow w-100 h-100">
                   <img
-                    src="https://picsum.photos/id/1/100/40"
+                    src="https://picsum.photos/id/1/55/27"
                     class="card-img-top border w-100 h-100 img-fluid"
                     alt="Güncel haberler 1. resim"
                   />
                   <div class="card-body">
-                    <h6 class="c-color7">In Label</h6>
-                    <strong>
-                      Ini Adalah Judul Artikel sadsadasd asdasdasd sadsadsadas
-                      asdsadasd asdasd
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
                     </strong>
-                    <h6 class="text-opacity-75 text-dark">
+                    <h6 class="text-dark card2-text3">
                       By
-                      <span class="text-opacity-50 text-dark">
+                      <span class="text-opacity-75 text-dark">
                         Ridho Satriawan</span
                       >
                     </h6>
-                    <p class="card-text">
+                    <p class="card-text card2-text4">
                       Apa itu HTML ? Buat kamu yang pernah membuat sebuah
                       website pastinya sudah tidak asing lagi dengah yang
-                      namanya HTML.S...
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
                     </p>
-                    <small>22 Agust 2022</small>
+                    <small class="card2-text5">22 Agust 2022</small>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 mt-2">
+              <div class="col-sm-6 mt-2 container-fluid">
                 <div class="card border c-shadow w-100 h-100">
                   <img
-                    src="https://picsum.photos/id/1/100/40"
-                    class="card-img-top border img-fluid"
-                    alt="Güncel haberler 2. resim"
+                    src="https://picsum.photos/id/1/55/27"
+                    class="card-img-top border w-100 h-100 img-fluid"
+                    alt="Güncel haberler 1. resim"
                   />
                   <div class="card-body">
-                    <h6 class="c-color7">In Label</h6>
-                    <strong> Ini Adalah Judul Artikel </strong>
-                    <h6 class="text-opacity-75 text-dark">
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
+                    </strong>
+                    <h6 class="text-opacity-75 text-dark card2-text3">
                       By
                       <span class="text-opacity-50 text-dark">
                         Ridho Satriawan</span
                       >
                     </h6>
-                    <p class="card-text">
+                    <p class="card-text card2-text4">
                       Apa itu HTML ? Buat kamu yang pernah membuat sebuah
                       website pastinya sudah tidak asing lagi dengah yang
-                      namanya HTML.S...
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
                     </p>
-                    <small>22 Agust 2022</small>
+                    <small class="card2-text5">22 Agust 2022</small>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 mt-2">
+              <div class="col-sm-6 mt-2 container-fluid">
                 <div class="card border c-shadow w-100 h-100">
                   <img
-                    src="https://picsum.photos/id/1/100/40"
-                    class="card-img-top border"
-                    alt="Güncel haberler 3. resim"
+                    src="https://picsum.photos/id/1/55/27"
+                    class="card-img-top border w-100 h-100 img-fluid"
+                    alt="Güncel haberler 1. resim"
                   />
                   <div class="card-body">
-                    <h6 class="c-color7">In Label</h6>
-                    <strong> Ini Adalah Judul Artikel </strong>
-                    <h6 class="text-opacity-75 text-dark">
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
+                    </strong>
+                    <h6 class="text-opacity-75 text-dark card2-text3">
                       By
                       <span class="text-opacity-50 text-dark">
                         Ridho Satriawan</span
                       >
                     </h6>
-                    <p class="card-text">
+                    <p class="card-text card2-text4">
                       Apa itu HTML ? Buat kamu yang pernah membuat sebuah
                       website pastinya sudah tidak asing lagi dengah yang
-                      namanya HTML.S...
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
                     </p>
-                    <small>22 Agust 2022</small>
+                    <small class="card2-text5">22 Agust 2022</small>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 mt-2">
+              <div class="col-sm-6 mt-2 container-fluid">
                 <div class="card border c-shadow w-100 h-100">
                   <img
-                    src="https://picsum.photos/id/1/100/40"
-                    class="card-img-top border"
-                    alt="Güncel haberler 4. resim"
+                    src="https://picsum.photos/id/1/55/27"
+                    class="card-img-top border w-100 h-100 img-fluid"
+                    alt="Güncel haberler 1. resim"
                   />
                   <div class="card-body">
-                    <h6 class="c-color7">In Label</h6>
-                    <strong> Ini Adalah Judul Artikel </strong>
-                    <h6 class="text-opacity-75 text-dark">
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
+                    </strong>
+                    <h6 class="text-opacity-75 text-dark card2-text3">
                       By
                       <span class="text-opacity-50 text-dark">
                         Ridho Satriawan</span
                       >
                     </h6>
-                    <p class="card-text">
+                    <p class="card-text card2-text4">
                       Apa itu HTML ? Buat kamu yang pernah membuat sebuah
                       website pastinya sudah tidak asing lagi dengah yang
-                      namanya HTML.S...
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
                     </p>
-                    <small>22 Agust 2022</small>
+                    <small class="card2-text5">22 Agust 2022</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 mt-2 container-fluid">
+                <div class="card border c-shadow w-100 h-100">
+                  <img
+                    src="https://picsum.photos/id/1/55/27"
+                    class="card-img-top border w-100 h-100 img-fluid"
+                    alt="Güncel haberler 1. resim"
+                  />
+                  <div class="card-body">
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
+                    </strong>
+                    <h6 class="text-opacity-75 text-dark card2-text3">
+                      By
+                      <span class="text-opacity-50 text-dark">
+                        Ridho Satriawan</span
+                      >
+                    </h6>
+                    <p class="card-text card2-text4">
+                      Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                      website pastinya sudah tidak asing lagi dengah yang
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
+                    </p>
+                    <small class="card2-text5">22 Agust 2022</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 mt-2 container-fluid">
+                <div class="card border c-shadow w-100 h-100">
+                  <img
+                    src="https://picsum.photos/id/1/55/27"
+                    class="card-img-top border w-100 h-100 img-fluid"
+                    alt="Güncel haberler 1. resim"
+                  />
+                  <div class="card-body">
+                    <h6 class="c-color7 card2-text1">In Label</h6>
+                    <strong class="card2-text2">
+                      Ini Adalah Judul Artikel
+                    </strong>
+                    <h6 class="text-opacity-75 text-dark card2-text3">
+                      By
+                      <span class="text-opacity-50 text-dark">
+                        Ridho Satriawan</span
+                      >
+                    </h6>
+                    <p class="card-text card2-text4">
+                      Apa itu HTML ? Buat kamu yang pernah membuat sebuah
+                      website pastinya sudah tidak asing lagi dengah yang
+                      namanya Lorem, ipsum dolor sit amet consectetur
+                      adipisicing elit. Illo ex veritatis, ipsa tempora
+                      accusamus commodi architecto? Sunt voluptatem nihil quas
+                      ipsa corporis molestiae totam, debitis quo et saepe
+                      corrupti enim.
+                    </p>
+                    <small class="card2-text5">22 Agust 2022</small>
                   </div>
                 </div>
               </div>
@@ -282,20 +386,18 @@
           <!-- ARTICLE-END -->
           <!-- ASIDE-START -->
           <aside class="col-md-4 d-none d-md-block">
-            <h6
-              class="c-bg-color4 text-light border shadow p-2"
-              style="text-align: center"
-            >
-              Kategori
-            </h6>
+            <div class="c-bg-color4 border">
+              <h6 class="text-light aside2-border-size">Kategori</h6>
+            </div>
+
             <div class="row">
-              <div class="col-8">
-                <p>> label1</p>
-                <p>> label2</p>
+              <div class="col-10">
+                <p class="aside2-text">> Label1</p>
+                <p class="aside2-text">> Label2</p>
               </div>
-              <div class="col-4">
-                <p>1</p>
-                <p>2</p>
+              <div class="col-2 aside2-text">
+                <p class="aside2-text">(1)</p>
+                <p class="aside2-text">(2)</p>
               </div>
             </div>
           </aside>
